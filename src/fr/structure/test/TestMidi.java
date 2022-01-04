@@ -76,7 +76,7 @@ public class TestMidi
 	public static void play() throws IOException, InvalidMidiDataException, MidiUnavailableException
 	{
 
-		Sequence sequence = MidiSystem.getSequence( midiIn02 );
+		Sequence sequence = MidiSystem.getSequence( midiIn01 );
 
     	// Create a sequencer for the sequence
     	Sequencer sequencer = MidiSystem.getSequencer();

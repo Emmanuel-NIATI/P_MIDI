@@ -62,16 +62,13 @@ public class TestMidi
     public static final int SEQUENCER_SPECIFIC = 0x7F;
     public static final int RESET = 0xFF;
 
-    public static File midiIn01 = new File( "D:\\eclipse-working\\in\\Koto - Visitors.mid" );
-    public static File xmlIn01 = new File( "D:\\eclipse-working\\in\\Koto - Visitors.xml" );
+    public static File midiIn01 = new File( "C:\\Users\\emman\\eclipse-working\\in\\Koto - Visitors.mid" );
+    public static File xmlIn01 = new File( "C:\\Users\\emman\\eclipse-working\\in\\Koto - Visitors.xml" );
     
-    public static File txtOut01 = new File( "D:\\eclipse-working\\out\\Koto - Visitors.txt" );
-    public static File xmlOut01 = new File( "D:\\eclipse-working\\out\\Koto - Visitors.xml" );
+    public static File txtOut01 = new File( "C:\\Users\\emman\\eclipse-working\\out\\Koto - Visitors.txt" );
+    public static File xmlOut01 = new File( "C:\\Users\\emman\\eclipse-working\\out\\Koto - Visitors.xml" );
     
-    public static File midiIn02 = new File( "D:\\eclipse-working\\in\\ghost rider in the sky.midi" );
-    
-    
-    
+    public static File midiIn02 = new File( "C:\\Users\\emman\\eclipse-working\\in\\ghost rider in the sky.midi" );
     
 	public static void play() throws IOException, InvalidMidiDataException, MidiUnavailableException
 	{

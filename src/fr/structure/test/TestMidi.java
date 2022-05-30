@@ -42,7 +42,7 @@ public class TestMidi
 {
 
     public static final String[] NOTE_NAMES_EN = {"C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"};
-    public static final String[] NOTE_NAMES_FR = {"do", "do#", "ré", "ré#", "mi", "fa", "fa#", "sol", "sol#", "la", "la#", "si"};
+    public static final String[] NOTE_NAMES_FR = {"do", "do#", "rï¿½", "rï¿½#", "mi", "fa", "fa#", "sol", "sol#", "la", "la#", "si"};
 
     // META MESSAGE
     public static final int SEQUENCE_NUMBER = 0x00;
@@ -592,7 +592,7 @@ public class TestMidi
 	public static void exportXML() throws IOException, InvalidMidiDataException, MidiUnavailableException, ParserConfigurationException, TransformerException
 	{
 
-		// En entrée
+		// En entrï¿½e
 		Sequence sequence = MidiSystem.getSequence( midiIn01 );
 		
 		
@@ -1089,6 +1089,7 @@ Sequencer specific	0x7F		variable		Something specific to the MIDI device manufac
 
 	}
 
+	// main
 	public static void main(String[] args)
 	{
 

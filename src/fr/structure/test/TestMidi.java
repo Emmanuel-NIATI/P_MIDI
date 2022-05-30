@@ -1089,7 +1089,6 @@ Sequencer specific	0x7F		variable		Something specific to the MIDI device manufac
 
 	}
 
-	// main
 	public static void main(String[] args)
 	{
 
